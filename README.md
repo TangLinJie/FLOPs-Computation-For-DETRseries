@@ -4,7 +4,9 @@ This repo is inherited from [official FLOPs computation for DETR](https://gist.g
 The script files, including flop_count.py and jit_handles.py, are shared across all models.
 ## Usage
 For DETR, put flop_count.py, jit_handles.py and detr_compute_flops.py in the root of DETR codebase, and then run ```python detr_compute_flops.py```
+******
 For Deformable DETR, put flop_count.py, jit_handles.py and deformable_detr_compute_flops.py in the root of Deformable DETR codebase, and then run ```python deformable_detr_compute_flops.py```
+******
 For ConditionalDETR, put flop_count.py, jit_handles.py and conditional_detr_compute_flops.py in the root of ConditionalDETR codebase, and then run ```python conditional_detr_compute_flops.py```
 ## For your model based DETR
 Please refer to custom_compute_flops.py, and modified it following the comments.
