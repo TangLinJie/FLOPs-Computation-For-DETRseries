@@ -9,4 +9,4 @@ For Deformable DETR, put flop_count.py, jit_handles.py and deformable_detr_compu
 ******
 For ConditionalDETR, put flop_count.py, jit_handles.py and conditional_detr_compute_flops.py in the root of ConditionalDETR codebase, and then run ```python conditional_detr_compute_flops.py```
 ## For your model based DETR
-Please refer to custom_compute_flops.py, and modified it following the comments.
+Please refer to custom_compute_flops.py, and modify it following the comments.
